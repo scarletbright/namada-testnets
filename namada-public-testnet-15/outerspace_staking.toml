@@ -8,7 +8,7 @@ address = "tnam1qypuzf5y67lw68gc4eaxhggj7pv8d8qr5s24all3"
 vp = "vp_user"
 commission_rate = "0.05"
 max_commission_rate_change = "0.01"
-net_address = "188.40.66.226:26656"
+net_address = "127.0.0.1:26656"
 
 [validator_account.consensus_key]
 pk = "tpknam1qplcydx020d90f4aefxf9lakzs7e2yl9sg80k7fe6yp0cd60785tz603te8"
@@ -33,12 +33,43 @@ authorization = "signam1qxq6pdv255grsg2g9l4hwwm6u2qyxj93dgrq9wrxjy8tl3llzk96u7tc
 [validator_account.metadata]
 email = "outerspacestaking@tuta.io"
 discord_handle = "outerspace_staking"
-twitter = "@OuterspaceStake"
-elements = "azure-outerspace"
-telegram = "@outerspace_staking"
 
 [validator_account.signatures]
 tpknam1qqkpzw25s7gzheexmd3dh4hakdz94m95ns6hwlvcggq0e33exywq6eyaptj = "signam1qpawlazu2swv7kaf2k98fqlhl0343dur6z5t00rzes9c8gel7aw7exymc5rmq5ky6udsxq5rmcutmu9ldk4dvht7zp3squncrg6qyhgrlpseu7"
+
+[[validator_account]]
+address = "tnam1qypuzf5y67lw68gc4eaxhggj7pv8d8qr5s24all3"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "188.40.66.226:26656"
+
+[validator_account.consensus_key]
+pk = "tpknam1qrtlaeaj80jhtsdxn8dd0gg5dg0zkf70yz2nc207vgqg8jtdkhx4zczjjnt"
+authorization = "signam1qzsad6ypp67m4k676mgzpyfs7v9aym2k0zjz7meplqerhww832l80lfux08nlcxht5dpns9hmpe37eh9362dmg408p77fj7vgkh82xgrz2xww3"
+
+[validator_account.protocol_key]
+pk = "tpknam1qqmx95ncmjvxrmdndwr0ppqtump4q5ra7ya2h9ntu0vt49njyrrnxd3zr5r"
+authorization = "signam1qp5ag44p5rftmf4x3efgvfz4cc95dqge876fdmxsfuvkecyxetshlh4ltj85jkkrjyc362um2vx45rfq9p6gu765e5hafv8uujmhsectfrnqf8"
+
+[validator_account.tendermint_node_key]
+pk = "tpknam1qq9cv6jg7dpa7kktslwt78u49fhcr2d2ncjur2kjj2s4xk5yrw98265j2gd"
+authorization = "signam1qqdxm4rlc9e4xxgn5r5dnwhal8dxthq0f4kjs8gg7dsg5c70wmw596rtae4zc22x7vhvsccl9gwpcx026rp0g7d4ce3qvy5q4ne9p8c2vvqhu2"
+
+[validator_account.eth_hot_key]
+pk = "tpknam1qypujrflp40ldrznu9l6vu0x0uts82clvhsjzq8g4y4zr7sq9qrdn6q5wmncs"
+authorization = "signam1qy7nw2y72kcd53uhjmq5ufp4jp3rvydaq9henrs4tad3kulrfzt0773u8t3u6utpx3g5jmker7h59dqywcvgc3kwrt7d4d30j4lzw58pqynenllf"
+
+[validator_account.eth_cold_key]
+pk = "tpknam1qyprzm6d0dg2ws9rhs7wgw0hurjmt82rl0zg5w4789md6et8qefffvg88yn3f"
+authorization = "signam1qy5nd6xj58r2qw0sal08r7cgme8t5fgm5gmr7yn9rcnh93zd385dy9v8l75g3s0ge860w27yj9grxs4nuqg6g7nye7n2x0xxek7lecs9qy762xyv"
+
+[validator_account.metadata]
+email = "outerspacestaking@tuta.io"
+discord_handle = "outerspace_staking"
+
+[validator_account.signatures]
+tpknam1qqkpzw25s7gzheexmd3dh4hakdz94m95ns6hwlvcggq0e33exywq6eyaptj = "signam1qznnuclwe2ftkjdz6dzvuqzq3mqp926w3nu2n9dlc0vhx3re4rsr24qzuhxeh0zzmpcmsjpmyle6ysfqelgw6vk42k7f76x6fk6kgws9duecrd"
 
 [[bond]]
 source = "tnam1qypuzf5y67lw68gc4eaxhggj7pv8d8qr5s24all3"
